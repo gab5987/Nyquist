@@ -1,0 +1,93 @@
+# ---------- Altium Designer ----------
+History/
+Project\ Logs*/
+__Previews/
+*.PrjPcbStructure
+*.SchDocPreview
+*.PcbDocPreview
+Project\ Outputs*/
+*.$$$
+*.bak
+*.ldb
+*.lck
+*.PvLib
+*.Annotation
+*.PrjPcbVariants
+
+# ---------- Intel Quartus ----------
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+.qsys_edit/
+*.qws
+*.rpt
+*.summary
+*.smsg
+*.done
+*.pin
+*.sld
+*.jdi
+*.sof
+*.pof
+*.rbf
+*.qar
+*.qarlog
+*.ipregen.rpt
+c5_pin_model_dump.txt
+PLLJ_PLLSPE_INFO.txt
+
+# ---------- Simulation SystemVerilog ----------
+work/
+transcript
+vsim.wlf
+*.wlf
+*.vcd
+*.fst
+*.vvp
+*.lxt
+*.lxt2
+*.vstf
+*.mti
+modelsim.ini
+*.out
+
+# ---------- FreeCAD ----------
+*.FCBak
+*.FCStd1
+*.FCStd2
+Enclosure/export/
+Enclosure/preview/
+
+# ---------- Python ----------
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# ---------- MATLAB ----------
+*.asv
+*.m~
+*.mex*
+slprj/
+
+# ---------- C++ / CMake ----------
+build/
+build-*/
+out/
+.cache/
+compile_commands.json
+*.exe
+*.obj
+*.o
+*.a
+*.lib
+*.pdb
+*.ilk
+
+# ---------- System ----------
+Thumbs.db
+Desktop.ini
+.DS_Store
